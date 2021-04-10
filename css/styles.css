@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(13, 54, 15);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+}
+
+/***********************HEADER*********************/
+
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #faf9f9;
+  height: 20vh;
+  width: 100vw;
+  padding: 1rem 2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__picture {
+  height: 100%;
+}
+
+.header__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__button {
+  margin: 0 0.5rem;
+  width: 9rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border: 2px solid rgb(13, 54, 15);
+}
+
+.header__button:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.header__button--green {
+  background-color: rgb(13, 54, 15);
+  color: white;
+}
+
+.header__button--green:active{
+    background-color: rgb(20, 85, 23);
+    transform: translateY(4px);
+}
+
+.header__button--white {
+  background-color: white;
+  color: rgb(13, 54, 15);
+}
+
+.header__button--white:active{
+    background-color: #e7e7e7;
+    transform: translateY(4px);
+}
+
+/***********************ARTICLES*********************/
+
+.articles {
+  margin-top: 20vh;
+  padding: 0.2rem 2rem;
+}
+
+.articles__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+  margin: 2rem 0;
+}
+
+.card__title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.card__illustration {
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: #faf9f9;
+  height: 15rem;
+  width: 27rem;
+}
+
+.card__illustration:active{
+    background-color: #e7e7e7;
+    transform: translateY(4px);
+}
+
+.card__image {
+  max-height: 95%;
+}
