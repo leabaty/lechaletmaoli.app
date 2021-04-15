@@ -67,8 +67,19 @@ body {
 /***********************ARTICLES*********************/
 
 .articles {
-  margin-top: 20vh;
   padding: 0.2rem 2rem;
+}
+
+.articles--index {
+  margin-top: 22vh;
+}
+
+.articles--my-rendre {
+  margin-top: 16vh;
+}
+
+.articles--ma-check-list {
+  margin-top: 15vh;
 }
 
 .articles__container {
@@ -79,7 +90,7 @@ body {
 }
 
 .card {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .card__title {
@@ -103,8 +114,12 @@ body {
   transform: translateY(4px);
 }
 
-.card__illustration--checklist {
+.card__illustration--ma-check-list {
   height: 35rem;
+}
+
+.card__illustration--my-rendre {
+  height: 25rem;
 }
 
 .card__image {
@@ -119,7 +134,7 @@ body {
   height: 5rem;
   width: 5rem;
   position: relative;
-  top: 10%;
+  top: 45px;
   left: 40%;
   box-shadow: 0px 2px 4px lightgray;
 }
