@@ -4,7 +4,7 @@ body {
   font-weight: 600;
 }
 
-footer{
+footer {
   height: 20vh;
 }
 
@@ -123,12 +123,14 @@ footer{
 }
 
 .card__illustration--ma-check-list,
-.card__illustration--my-rendre {
+.card__illustration--my-rendre, 
+.card__illustration--pdc {
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  padding: 20px 0;
   height: 100%;
 }
+
 
 .card__image {
   max-height: 95%;
@@ -177,6 +179,11 @@ footer{
   text-align: center;
 }
 
+.card__pdc__item{
+  margin: 5% auto;
+  text-align: center;
+}
+
 .card__checklist-label {
   margin-bottom: 10px;
 }
@@ -185,40 +192,42 @@ footer{
   font-size: 0.8rem;
 }
 
-.smaller-font--light{
+.smaller-font--light {
   font-weight: 300;
   font-size: 0.8rem;
   text-align: center;
 }
 
-.card__content-myrendre-icons{
+.card__content-myrendre-icons {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
 }
 
-.card__content-myrendre-icon{
+.card__content-myrendre-icon {
   height: 3rem;
   width: 3rem;
 }
 
-.card__myrendre-buttons{
+.card__myrendre__transport-paragraph {
+  font-size: 0.9rem;
+  margin: 10%;
+}
+
+.card__myrendre-buttons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.card__myrendre-buttons__logo{
+.card__myrendre-buttons__logo {
   height: 3.5rem;
   width: 3.5rem;
   border-radius: 10px;
 }
 
-.card__content--margin{
+.card__content--margin {
   margin-top: 5%;
 }
 
-.card__myrendre__transport-paragraph{
-  font-size: 0.9rem;
-  margin: 10%;
-}
+
