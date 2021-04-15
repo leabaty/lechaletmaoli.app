@@ -8,6 +8,16 @@ footer {
   height: 20vh;
 }
 
+.smaller-font {
+  font-size: 0.8rem;
+}
+
+.smaller-font--light {
+  font-weight: 300;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
 /***********************HEADER*********************/
 
 .header {
@@ -68,22 +78,10 @@ footer {
   transform: translateY(4px);
 }
 
-/***********************ARTICLES*********************/
+/***********************CARDS*********************/
 
 .articles {
   padding: 0.2rem 2rem;
-}
-
-.articles--index {
-  margin-top: 22vh;
-}
-
-.articles--my-rendre {
-  margin-top: 16vh;
-}
-
-.articles--ma-check-list {
-  margin-top: 15vh;
 }
 
 .articles__container {
@@ -116,21 +114,6 @@ footer {
   height: 15rem;
   width: 27rem;
 }
-
-.card__illustration--index:active {
-  background-color: #e7e7e7;
-  transform: translateY(4px);
-}
-
-.card__illustration--ma-check-list,
-.card__illustration--my-rendre, 
-.card__illustration--pdc {
-  display: flex;
-  flex-direction: column;
-  padding: 20px 0;
-  height: 100%;
-}
-
 
 .card__image {
   max-height: 95%;
@@ -170,31 +153,42 @@ footer {
   margin: 0 auto;
 }
 
+.card__content--margin {
+  margin-top: 5%;
+}
+
+/***********************SPECIFIQUES*********************/
+
+.articles--index {
+  margin-top: 22vh;
+}
+
+.card__illustration--index:active {
+  background-color: #e7e7e7;
+  transform: translateY(4px);
+}
+
+.card__illustration--ma-check-list,
+.card__illustration--my-rendre,
+.card__illustration--pdc {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  height: 100%;
+}
+
 .card__checklist,
 .card__myrendre {
   margin-top: 10%;
 }
 
+/***********M'Y RENDRE*******/
+
+.articles--my-rendre {
+  margin-top: 16vh;
+}
+
 .card__myrendre__item {
-  text-align: center;
-}
-
-.card__pdc__item{
-  margin: 5% auto;
-  text-align: center;
-}
-
-.card__checklist-label {
-  margin-bottom: 10px;
-}
-
-.smaller-font {
-  font-size: 0.8rem;
-}
-
-.smaller-font--light {
-  font-weight: 300;
-  font-size: 0.8rem;
   text-align: center;
 }
 
@@ -219,15 +213,25 @@ footer {
   flex-direction: row;
   justify-content: space-around;
 }
-
 .card__myrendre-buttons__logo {
   height: 3.5rem;
   width: 3.5rem;
   border-radius: 10px;
 }
 
-.card__content--margin {
-  margin-top: 5%;
+/***********CHECK-LIST*******/
+
+.articles--ma-check-list {
+  margin-top: 15vh;
 }
 
+.card__checklist-label {
+  margin-bottom: 10px;
+}
 
+/*****POINTS DE COLLECTE*****/
+
+.card__pdc__item {
+  margin: 5% auto;
+  text-align: center;
+}
