@@ -114,15 +114,12 @@ body {
   transform: translateY(4px);
 }
 
-.card__illustration--ma-check-list {
+.card__illustration--ma-check-list,
+.card__illustration--my-rendre {
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
+  padding-top: 20px;
   height: 100%;
-}
-
-.card__illustration--my-rendre {
-  height: 25rem;
 }
 
 .card__image {
@@ -163,14 +160,23 @@ body {
   margin: 0 auto;
 }
 
-.card__checklist{
+.card__checklist,
+.card__myrendre {
   margin-top: 10%;
 }
 
-.card__checklist-label{
+.card__myrendre__item {
+  text-align: center;
+}
+
+.card__checklist-label {
   margin-bottom: 10px;
 }
 
-.checklist-smaller-font{
-font-size: 0.8rem;
+.smaller-font {
+  font-size: 0.8rem;
+}
+
+.smaller-font--light{
+  font-weight: 300;
 }
