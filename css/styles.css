@@ -145,7 +145,7 @@ body {
   height: 4rem;
   width: 4rem;
   top: 10px;
-  left: 37%;
+  left: 40%;
 }
 
 .card__theme-logo {
@@ -156,7 +156,7 @@ body {
 .card__content {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -179,4 +179,38 @@ body {
 
 .smaller-font--light{
   font-weight: 300;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.card__content-myrendre-icons{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.card__content-myrendre-icon{
+  height: 3rem;
+  width: 3rem;
+}
+
+.card__myrendre-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card__myrendre-buttons__logo{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 10px;
+}
+
+.card__content--margin{
+  margin-top: 5%;
+}
+
+.card__myrendre__transport-paragraph{
+  font-size: 0.9rem;
+  margin: 10%;
 }
