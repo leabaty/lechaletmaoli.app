@@ -49,9 +49,9 @@ body {
   color: white;
 }
 
-.header__button--green:active{
-    background-color: rgb(20, 85, 23);
-    transform: translateY(4px);
+.header__button--green:active {
+  background-color: rgb(20, 85, 23);
+  transform: translateY(4px);
 }
 
 .header__button--white {
@@ -59,9 +59,9 @@ body {
   color: rgb(13, 54, 15);
 }
 
-.header__button--white:active{
-    background-color: #e7e7e7;
-    transform: translateY(4px);
+.header__button--white:active {
+  background-color: #e7e7e7;
+  transform: translateY(4px);
 }
 
 /***********************ARTICLES*********************/
@@ -71,11 +71,11 @@ body {
   padding: 0.2rem 2rem;
 }
 
-.articles__container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.articles__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -98,16 +98,20 @@ body {
   width: 27rem;
 }
 
-.card__illustration:active{
-    background-color: #e7e7e7;
-    transform: translateY(4px);
+.card__illustration--index:active {
+  background-color: #e7e7e7;
+  transform: translateY(4px);
+}
+
+.card__illustration--checklist {
+  height: 35rem;
 }
 
 .card__image {
   max-height: 95%;
 }
 
-.card__theme{
+.card__theme {
   display: flex;
   justify-content: center;
   border-radius: 100%;
@@ -120,7 +124,7 @@ body {
   box-shadow: 0px 2px 4px lightgray;
 }
 
-.card__theme-logo{
+.card__theme-logo {
   max-height: 80%;
   margin: 10%;
 }
