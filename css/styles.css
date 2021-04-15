@@ -115,7 +115,10 @@ body {
 }
 
 .card__illustration--ma-check-list {
-  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  height: 100%;
 }
 
 .card__illustration--my-rendre {
@@ -156,15 +159,15 @@ body {
 .card__content {
   display: flex;
   flex-direction: column;
-  margin: 10%;
   width: 60%;
+  margin: 0 auto;
 }
 
 .card__checklist{
   margin-top: 10%;
 }
 
-label{
+.card__checklist-label{
   margin-bottom: 10px;
 }
 
