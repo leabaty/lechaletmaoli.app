@@ -4,6 +4,10 @@ body {
   font-weight: 600;
 }
 
+footer{
+  height: 20vh;
+}
+
 /***********************HEADER*********************/
 
 .header {
@@ -91,6 +95,10 @@ body {
 
 .card {
   margin: 1.5rem 0;
+}
+
+.card--pages {
+  margin-bottom: 5rem;
 }
 
 .card__title {
@@ -201,8 +209,8 @@ body {
 }
 
 .card__myrendre-buttons__logo{
-  height: 4rem;
-  width: 4rem;
+  height: 3.5rem;
+  width: 3.5rem;
   border-radius: 10px;
 }
 
