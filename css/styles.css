@@ -24,8 +24,8 @@ footer {
   position: fixed;
   top: 0;
   background-color: #faf9f9;
-  height: 20vh;
-  width: 100vw;
+  height: 18%;
+  width: 100%;
   padding: 1rem 2rem;
   z-index: 1;
 
@@ -34,8 +34,15 @@ footer {
   justify-content: space-between;
 }
 
-.header__picture {
+.header__logo {
   height: 100%;
+  display: flex;
+}
+
+.header__picture {
+  height: 9rem;
+  width: 9rem;
+  margin: auto;
 }
 
 .header__buttons {
@@ -51,6 +58,45 @@ footer {
   height: 3rem;
   border-radius: 2rem;
   border: 2px solid rgb(13, 54, 15);
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 1rem 1rem;
+  }
+  .header__buttons {
+    padding-left: 0.5rem;
+  }
+
+  .header__button {
+    margin: 0 0.2rem;
+    width: 7rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+  }
+
+  .header__picture {
+    height: 6rem;
+    width: 6rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .header {
+    padding: 1rem 1rem;
+  }
+
+  .header__button {
+    margin: 0 0.2rem;
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.7rem;
+  }
+
+  .header__picture {
+    height: 4.2rem;
+    width: 4.2rem;
+  }
 }
 
 .header__button:hover {
@@ -81,7 +127,7 @@ footer {
 /***********************CARDS*********************/
 
 .articles {
-  padding: 0.2rem 2rem;
+  padding: 2% 7%;
 }
 
 .articles__container {
@@ -92,11 +138,11 @@ footer {
 }
 
 .card {
-  margin: 1.5rem 0;
+  margin: 1.5% 0;
 }
 
 .card--pages {
-  margin-bottom: 5rem;
+  margin-bottom: 2%;
 }
 
 .card__title {
@@ -113,6 +159,27 @@ footer {
   background-color: #faf9f9;
   height: 15rem;
   width: 27rem;
+  margin: 5% 0;
+}
+
+@media (max-width: 500px) {
+  .card__illustration {
+    height: 12rem;
+    width: 20rem;
+  }
+  .card--pages {
+    margin-bottom: 30%;
+  }
+}
+
+@media (max-width: 350px) {
+  .card__illustration {
+    height: 10rem;
+    width: 17rem;
+  }
+  .card--pages {
+    margin-bottom: 30%;
+  }
 }
 
 .card__image {
@@ -181,6 +248,7 @@ footer {
 .card__myrendre {
   margin-top: 10%;
 }
+
 
 /***********M'Y RENDRE*******/
 
