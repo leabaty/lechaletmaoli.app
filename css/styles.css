@@ -99,6 +99,24 @@ footer {
   }
 }
 
+@media (max-width: 360px) {
+  .header {
+    padding: 1rem 1rem;
+  }
+
+  .header__button {
+    margin: 0 0.2rem;
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.7rem;
+  }
+
+  .header__picture {
+    height: 4.2rem;
+    width: 4.2rem;
+  }
+}
+
 .header__button:hover {
   transform: scale(1.1);
   transition: all 0.2s ease-in-out;
